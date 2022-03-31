@@ -1,70 +1,142 @@
 body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    min-height: 100%;
+}
 
+.bigbox {
+    background-color: white;
+   display: flex;
+   flex-direction: column; 
+   max-width: 75%;
+   min-height: 100%;
 }
 
 .header {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
 
+}
+
+.headerlogo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    width: 33%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .headerlinks {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.container1 {
+    background-color:#1F2937;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 
 }
 
-
-
-.container1 {
-
+.c1 {
+    margin: 50px;
+    display: flex;
 }
 
 .c1box1 {
-
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
-.box1A {
-
+.c1box1A {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 50%;
 }
 
-.box1B {
-
+.c1box1B {
+    color: #E5E7EB;
+    width: 50%;
 }
 
-.c1box2
+.c1box2 {
+ display: flex;
+}
 
-.signup {
-
+button {
+    color: white;
+    background-color: #3882f6;
 }
 
 
 .container2 {
-
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .title2 {
-
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .c2box1 {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .c2box1A {
-
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .c2box1Aimage1 {
-
+    text-align: center;
 }
 
 .c2box1Aimage2 {
-    
+    text-align: center;
 }
 
 .c2box1Aimage3 {
-    
+    text-align: center;
 }
 
 .c2box1Aimage4 {
-    
+    text-align: center;
 }
 
 .text {
@@ -74,7 +146,9 @@ body {
 
 
 .container3{
-
+    background-color: #E5E7EB;
+    display: flex;
+    flex-grow: 1;
 }
 
 .c3box1 {
@@ -82,7 +156,8 @@ body {
 }
 
 .c3box1A {
-
+    font-size: 36px;
+    font-style: italic;
 }
 
 .c3box1B {
@@ -93,11 +168,13 @@ body {
 
 
 .container4{
-
+    display: flex;
+    flex-grow: 1;
 }
 
 .c4box1 {
-
+    color: white;
+    background-color:#3882f6;
 }
 
 .c4box1A {
@@ -113,7 +190,11 @@ body {
 }
 
 .c4box1B {
-    
+
+}
+
+.signup2 {
+    border-color: white;
 }
 
 .footer {
